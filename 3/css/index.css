@@ -1,0 +1,52 @@
+body {
+  font-family: "Arial";
+}
+
+.container {
+  max-width: 500px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  cursor: pointer;
+}
+
+.btn-primary:active {
+  background-color: #0a58ca;
+}
+
+.btn-secondary {
+  width: 50px;
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5c636a;
+  cursor: pointer;
+}
+
+.btn-secondary:active {
+  background-color: #565e64;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  opacity: 0.65;
+  user-select: none;
+}

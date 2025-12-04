@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Космос</title>
+    <style>
+      h1, h2, p, body {
+        margin: 0
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #eee;
+        padding: 10px;
+      }
+
+      header h1 {
+        text-align: start;
+        padding: 50px 10px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+      }
+
+      .iconup {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        color: #eee;
+        padding: 2px 10px;
+        background-color: #000;
+        border-radius: 20px;
+        border: 1px solid #ddd;
+        margin: 10px;
+      }
+
+      .iconup img {
+        width: 20px;
+        padding: 10px;
+      }
+
+      main {
+        padding: 50px 0px 100px 0px;
+        color: #333;
+        background-color: #ddd;
+      }
+
+      #system h2 {
+        text-align: center;
+      }
+
+      article {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .planet {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .planet img {
+        width: 200px;
+        margin: 20px;
+      }
+
+      .planet p {
+        background-color: #fff;
+        text-align: center;
+      }
+
+      footer {
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      footer img {
+        width: 50px;
+        padding: 15px;
+        transition: all;
+        border-radius: 50%;
+      }
+
+      footer img:nth-child(1):hover {
+        background-color: #07f;
+      }
+
+      footer img:nth-child(2):hover {
+        background-color: #c30000;
+      }
+
+      footer img:nth-child(3):hover {
+        background-color: #0088cc;
+      }
+
+      footer img:nth-child(4):hover {
+        background-color: #fdfd03;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Космос: неизведанный мир</h1>
+      <nav>
+        <a href="#" class="iconup">
+          <img src="assets/header/sputnik.png" alt="" />
+          Солнечная система
+        </a>
+        <a href="#" class="iconup">
+          <img src="assets/header/rocket.png" alt="" />
+          Техника
+        </a>
+        <a href="#" class="iconup">
+          <img src="assets/header/star.png" alt="" />
+          Земные звёзды
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section id="system">
+        <h2>Солнечная система</h2>
+        <article>
+          <div class="planet venus">
+            <img src="assets/planets/venus.jpg" alt="" />
+            <p>Венера</p>
+          </div>
+          <div class="planet earth">
+            <img src="assets/planets/earth.jpg" alt="" />
+            <p>Земля</p>
+          </div>
+          <div class="planet jupiter">
+            <img src="assets/planets/jupiter.jpg" alt="" />
+            <p>Юпитер</p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <img class="socicon vk" src="assets/footer/vk.png" />
+      <img class="socicon yt" src="assets/footer/youtube.png" />
+      <img class="socicon tg" src="assets/footer/telegram.png" />
+      <img class="socicon snpcht" src="assets/footer/snapchat.png" />
+    </footer>
+  </body>
+</html>
