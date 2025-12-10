@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(assets/Bitmap.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 24px;
+}
+
+.container {
+    width: 1111px;
+    margin: 0 auto;
+}
+
+.h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 74px;
+}
+
+.h3 {
+
+}
+
+.p {
+
+}
+
+.hedcont {
+    display:flex;
+    justify-content: space-between;
+}
+
+.showcase {
+    margin-top: 121px;
+}
+
+.showcase .h1 {
+    width: 616px;
+}
+
+.subtitle {
+    color: white;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: "Poppins", 'Courier New', Courier, monospace;
+}
